@@ -5,7 +5,25 @@
 </template>
 
 <script>
-export default {};
+export default {
+  metaInfo: {
+    title: "SEO 메인",
+    meta: [
+      {
+        property: "og:title",
+        content: "SEO 메인"
+      },
+      {
+        property: "og:image",
+        content: `./og.png`
+      },
+      {
+        property: "og:url",
+        content: "https://vue-seo.netlify.app/"
+      }
+    ]
+  }
+};
 </script>
 
 <style></style>
