@@ -15,7 +15,7 @@ export default {
       },
       {
         property: "og:image",
-        content: `./nanum.png`
+        content: `https://vue-seo.netlify.app/nanum.png`
       },
       {
         property: "og:url",

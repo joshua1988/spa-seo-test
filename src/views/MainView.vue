@@ -15,7 +15,7 @@ export default {
       },
       {
         property: "og:image",
-        content: `./og.png`
+        content: `https://vue-seo.netlify.app/og.png`
       },
       {
         property: "og:url",
